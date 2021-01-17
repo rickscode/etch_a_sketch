@@ -35,3 +35,13 @@ function draw(e) {
         e.target.style.backgroundColor = "green";
     }
 
+// Touch start event listener for mobile 
+
+    container.addEventListener("touchstart", draw)
+
+function draw(e) {  
+    console.log(e);
+    
+        e.target.style.backgroundColor = "green";
+    }
+
