@@ -1,7 +1,6 @@
 // Bindings for grid values
 const container = document.getElementById("container");
-const rowCell = document.getElementsByClassName("rowCell");
-const colCell = document.getElementsByClassName("colCell")
+
 
 
 // Arrow function for creating grid
