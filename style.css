@@ -20,20 +20,15 @@ body {
   
 #container {
     margin-left: 15vw;
-    box-sizing: content-box;
     display: grid;
+    grid-template-columns: repeat(16, 1fr);
     height: 40vw;
     width: 40vw;
-  }
+    background-color: white;
+}
  
-.rowCell {
-    background-color: rgba(255, 255, 255, 1);
-     }
 
-.colCell {
-    background-color: rgba(255, 255, 255, 1);
-   
-  }
+
   
   
 
