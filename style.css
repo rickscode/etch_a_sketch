@@ -34,3 +34,39 @@ body {
 
 
 
+body {
+    animation: mymove 5s infinite;
+  }
+  
+@keyframes mymove {
+    from {background-color: #FF6262;}
+      to {background-color: #62FFF3;}
+      to {background-color: #6262FF;}
+  }
+
+#tablet {
+    position: relative;
+    top: 10vh;
+    left: 15vw;
+    width: 70vw; 
+    height: 40vw;
+    border-radius: 25px;
+    background-color: black;
+}
+  
+#container {
+    margin-left: 15vw;
+    display: grid;
+    height: 40vw;
+    width: 40vw;
+    background-color: white;
+}
+ 
+
+
+  
+  
+
+
+
+
