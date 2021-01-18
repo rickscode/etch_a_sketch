@@ -43,6 +43,8 @@ function createGrid(num) {
 
 console.log(container.childNodes);
 
+// Event listener too change grid color on mouse hover// Funtion to draw on grid
+
 // Event listener too change grid color on mouse hover
 
 container.addEventListener("mouseover", draw)
@@ -66,4 +68,3 @@ function draw(e) {
     
         e.target.style.backgroundColor = "black";
     }
-
