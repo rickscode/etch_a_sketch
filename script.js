@@ -59,7 +59,7 @@ function draw(e) {
 
 // Touch start event listener for mobile 
 
-    container.addEventListener("touchstart", draw)
+    container.addEventListener("touchmove", draw)
 
 // Function to draw on the grid
 
