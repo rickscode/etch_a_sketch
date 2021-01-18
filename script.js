@@ -7,7 +7,7 @@ const container = document.getElementById("container");
 document.querySelector("#gridsize").addEventListener("click", resizeGrid);
 
 function resizeGrid(e) {
-    let input = prompt("Enter Number");
+    let input = prompt("Enter  A Number Between 1 & 100");
     createGrid(input);
 
 }
