@@ -1,11 +1,10 @@
 // Bindings too hold container value
 const container = document.getElementById("container");
-// Binding to hold chaning num value
-
 
 // Query selector and event listener for #grid size button
 document.querySelector("#gridsize").addEventListener("click", resizeGrid);
 
+// Function resize the grid
 function resizeGrid(e) {
     let input = prompt("Enter  A Number Between 1 & 100");
     createGrid(input);
@@ -25,9 +24,11 @@ function createGrid(num) {
             container.appendChild(cell).className = "cell";
             container.style.gridTemplateColumns = `repeat(${num}, 1fr)`;
             container.style.gridTemplateRows = `repeat(${num}, 1fr)`;
+
         }
-    }
 }
+
+};
 // Call function
     createGrid(16);
 
@@ -40,6 +41,8 @@ console.log(container.childNodes);
 
 container.addEventListener("mouseover", draw)
 
+// Funtion to draw on grid
+
 function draw(e) {  
     console.log(e);
     
@@ -49,6 +52,8 @@ function draw(e) {
 // Touch start event listener for mobile 
 
     container.addEventListener("touchstart", draw)
+
+// Function to draw on the grid
 
 function draw(e) {  
     console.log(e);
