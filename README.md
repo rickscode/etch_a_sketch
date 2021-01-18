@@ -6,12 +6,12 @@ A simple responsive etch a sketch web application.
 
 ## Technologies
 Built with:
-*HTML
-*CSS
-*JavaScript
+* HTML
+* CSS
+* JavaScript
 
 ## Features
-*Responsive sizing
-*Multiple grid layouts
+* Responsive sizing
+* Multiple grid layouts
 
 
