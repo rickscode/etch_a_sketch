@@ -59,6 +59,20 @@ function draw(e) {
 
 // Touch start event listener for mobile 
 
+    container.addEventListener("touchstart", draw)
+
+// Function to draw on the grid
+
+function draw(e) {  
+    console.log(e);
+    
+        e.target.style.backgroundColor = "grey";
+    }
+
+
+
+// Touch start event listener for mobile 
+
     container.addEventListener("touchmove", draw)
 
 // Function to draw on the grid
