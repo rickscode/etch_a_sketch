@@ -54,7 +54,7 @@ container.addEventListener("mouseover", draw)
 function draw(e) {  
     console.log(e);
     
-        e.target.style.backgroundColor = "black";
+        e.target.style.backgroundColor = "grey";
     }
 
 // Touch start event listener for mobile 
@@ -66,5 +66,5 @@ function draw(e) {
 function draw(e) {  
     console.log(e);
     
-        e.target.style.backgroundColor = "black";
+        e.target.style.backgroundColor = "grey";
     }
