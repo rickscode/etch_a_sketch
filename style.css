@@ -6,7 +6,7 @@ h1 {
 }
 
 body {
-    animation: mymove 6s infinite;
+    animation: mymove 5s infinite;
 }
   
 @keyframes mymove {
